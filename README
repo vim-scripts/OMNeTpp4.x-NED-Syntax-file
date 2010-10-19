@@ -1,0 +1,13 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3283
+
+I find the syntax file for ned, but it is just for OMNeT++ 3.x network simulator and was not updated for a long time. Now, The OMNeT++ 4.x network simulator is released, I wish the ned.vim file can help users work easily.
+
+The syntax file include:
+* highlight all functions keywords
+* highlight the number, float, double types and so on
+* highlight the properties(such as: @loose, @prompt, @unit and so on)
+* code folding
+    you can set this by edit the .vimrc, for examples "let ned_fold=1" or "let ned_nofold_blocks=1" or "let ned_nofold_packages=1"
+* highlight the document keywords, TODO, FIXME and so on
+
+more information in the ned.vim, enjoy it.
