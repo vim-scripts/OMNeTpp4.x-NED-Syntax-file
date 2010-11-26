@@ -1,6 +1,6 @@
 " Vim syntax file
 " Language:	Omnet++ NED
-" Maintainer:	Simon <carmark.dlut@gmail.com> 
+" Maintainer:	Simon <carmark.xue@gmail.com> 
 " URL:			http://carmark.javaeye.com 
 " Last Change:	November 28, 2005
 " Version:      1.1
@@ -38,7 +38,7 @@ syn match nedValidTimeUnits     "d"
 syn keyword nedConditional      if contained
 syn keyword nedConditional		else contained
 syn keyword nedInclude          import 
-syn keyword nedIncluede			package 
+syn keyword nedInclude			package 
 syn keyword nedRepeat           for contained 
 syn keyword nedRepeat			do contained
 syn keyword nedType             string int bool xml char volatile double
@@ -71,6 +71,7 @@ syn match nedProperties			"@directIn"
 
 syn match nedGateOptions        "in:"he=e-1 " 
 syn match nedGateOptions        "out:"he=e-1 " 
+syn match nedGateOptions		"inout:"he=e-1 "add new gate
 syn match nedComment            "\/\/.*" contains=nedTodo
 
 syn region nedString		    start=/"/ skip=/\\"/ end=/"/
